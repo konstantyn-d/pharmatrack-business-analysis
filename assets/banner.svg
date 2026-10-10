@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-label="PharmaTrack: business analysis case study">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f0e"/>
+      <stop offset="1" stop-color="#132420"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.2" fill="#ffffff" fill-opacity="0.05"/>
+    </pattern>
+    <linearGradient id="leg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7dd3ae"/>
+      <stop offset="1" stop-color="#7dd3ae" stop-opacity="0.35"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="340" rx="18" fill="url(#bg)"/>
+  <rect width="1280" height="340" rx="18" fill="url(#dots)"/>
+
+  <g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="64" y="84" fill="#7dd3ae" font-size="15" letter-spacing="3" font-weight="600">BUSINESS ANALYSIS CASE STUDY · CLIENT PROJECT FOR 4VISO</text>
+    <text x="62" y="152" fill="#f4f7f6" font-size="68" font-weight="700" letter-spacing="-1.5">PharmaTrack</text>
+    <text x="64" y="196" fill="#b9c6c2" font-size="22">Risk &amp; compliance control for pharmaceutical cold-chain logistics</text>
+    <text x="64" y="232" fill="#7f8f8a" font-size="16">Stakeholder analysis · BPMN · BRD · User stories · Data model · Business rules · KPIs · Traceability</text>
+  </g>
+
+  <!-- the lane: a chain of actionable blocks -->
+  <g font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11">
+    <line x1="88" y1="286" x2="1180" y2="286" stroke="url(#leg)" stroke-width="2" stroke-dasharray="6 6"/>
+    <g>
+      <rect x="64" y="270" width="150" height="32" rx="8" fill="#16201d" stroke="#7dd3ae"/>
+      <circle cx="80" cy="286" r="4" fill="#7dd3ae"/>
+      <text x="92" y="290" fill="#cfe9dd">WAREHOUSE · GDP</text>
+    </g>
+    <g>
+      <rect x="300" y="270" width="150" height="32" rx="8" fill="#16201d" stroke="#7dd3ae"/>
+      <circle cx="316" cy="286" r="4" fill="#7dd3ae"/>
+      <text x="328" y="290" fill="#cfe9dd">AIRPORT · CEIV</text>
+    </g>
+    <g>
+      <rect x="536" y="270" width="160" height="32" rx="8" fill="#241c12" stroke="#e5b45a"/>
+      <circle cx="552" cy="286" r="4" fill="#e5b45a"/>
+      <text x="564" y="290" fill="#f1dbb0">CARRIER · EXPIRING</text>
+    </g>
+    <g>
+      <rect x="782" y="270" width="182" height="32" rx="8" fill="#2a1717" stroke="#e07a6e"/>
+      <circle cx="798" cy="286" r="4" fill="#e07a6e"/>
+      <text x="810" y="290" fill="#f3c6c0">CUSTOMS · GDP MISSING</text>
+    </g>
+    <g>
+      <rect x="1038" y="270" width="150" height="32" rx="8" fill="#16201d" stroke="#7dd3ae"/>
+      <circle cx="1054" cy="286" r="4" fill="#7dd3ae"/>
+      <text x="1066" y="290" fill="#cfe9dd">DELIVERY · 2–8 °C</text>
+    </g>
+  </g>
+
+  <!-- score badge -->
+  <g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="1010" y="64" width="206" height="130" rx="14" fill="#101715" stroke="#2b3b36"/>
+    <text x="1032" y="94" fill="#7f8f8a" font-size="12" letter-spacing="2">LANE RISK SCORE</text>
+    <text x="1030" y="156" fill="#e07a6e" font-size="54" font-weight="700">41</text>
+    <text x="1100" y="156" fill="#7f8f8a" font-size="20">/ 100</text>
+    <rect x="1032" y="172" width="162" height="5" rx="2.5" fill="#2b3b36"/>
+    <rect x="1032" y="172" width="66" height="5" rx="2.5" fill="#e07a6e"/>
+  </g>
+</svg>
